@@ -5,7 +5,7 @@ import {CounterTwoDisplay} from "./Counter/CounterTwoDisplay/CounterTwoDisplay";
 
 function App() {
 
-    const [MAXCOUNT, setMAXCOUNT] = useState(5)
+    const [MAXCOUNT, setMAXCOUNT] = useState(6)
     const [MINCOUNT, setMINCOUNT] = useState(0)
     const [countValue, setCountValue] = useState<number>(MINCOUNT)
     const [settingActive, setSettingActive] = useState<boolean>(false)
